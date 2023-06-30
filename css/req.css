@@ -1,0 +1,125 @@
+.container {
+  margin-top: 30px;
+}
+
+.search_users input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+#userList {
+  list-style-type: none;
+  padding: 0;
+  display: none;
+}
+
+#userList li {
+  padding: 10px;
+  background-color: #f9f9f9;
+  margin-bottom: 5px;
+}
+
+#friendRequestForm {
+  margin-top: 30px;
+}
+
+#friendRequestForm label {
+  font-weight: bold;
+}
+
+.input_btn {
+  display: flex;
+  align-items: center;
+}
+
+.input_btn input[type="text"] {
+  flex: 8;
+  width: 80%;
+  padding: 10px;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
+
+.input_btn button[type="submit"] {
+  flex: 2;
+  width: 20%;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.width_screen {
+  max-width: 500px;
+}
+
+#friendRequestList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#friendRequestList li {
+  padding: 10px;
+  background-color: #f9f9f9;
+  margin-bottom: 5px;
+}
+
+/* Prilagodba za mobilne uređaje */
+@media (max-width: 767px) {
+  .col-md-4, .col-md-8 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  #friendRequestForm {
+    margin-top: 20px;
+  }
+
+  .width_screen {
+    max-width: none;
+  }
+}
+
+.accept {
+  padding: 5px 10px;
+  margin-left: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.reject {
+  padding: 5px 10px;
+  margin-left: 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#friendRequestList li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f9f9f9;
+  margin-bottom: 5px;
+}
+
+#friendRequestList li button {
+  flex-shrink: 0;
+}
+
+#friendRequestList li span {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+#logout {
+  border: none;
+  background-color: transparent;
+}
