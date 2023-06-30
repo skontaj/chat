@@ -40,6 +40,7 @@ Required packages:
 
 ```shell
 node server.js
+```
 
 4. Access the application
 Open a web browser and visit http://localhost:3000
